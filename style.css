@@ -1,5 +1,5 @@
 * {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Helvetica;
   outline: 1px solid red;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .listbutton li a {
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-decoration: none;
   color: white;
   /*align-content: center*/
