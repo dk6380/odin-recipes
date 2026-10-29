@@ -1,0 +1,49 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  outline: 1px solid red;
+}
+
+body {
+  background-color: dimgrey;
+}
+
+.recorner img {
+  border-radius: 50px;
+}
+
+.TitleBox {
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  width: 350px;
+  height: 100px;
+  align-content: center;
+  margin: 50px;
+}
+
+/*.listbutton {
+  align-content: center;
+}*/
+
+.listbutton li {
+  background-color: lightslategray;
+  font-size: 20px;
+  margin: 25px;
+  /*align-content: center;*/
+  padding: 15px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 6px 6px 10px darkslategrey;
+  list-style-type: none;
+}
+
+.listbutton li:hover {
+  background-color: black;
+}
+
+.listbutton li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  /*align-content: center*/
+}
