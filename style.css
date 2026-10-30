@@ -1,24 +1,25 @@
 * {
   font-family: Helvetica;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 
 body {
   background-color: dimgrey;
 }
 
-.recorner img {
-  border-radius: 50px;
-}
-
 .TitleBox {
   color: white;
+  padding: auto 0;
   background-color: black;
   border-radius: 50px;
   width: 350px;
-  height: 100px;
   align-content: center;
-  margin: 50px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.TitleBox h1 {
+  margin: 20px 0;
 }
 
 /*.listbutton {
@@ -28,13 +29,14 @@ body {
 .listbutton li {
   background-color: lightslategray;
   font-size: 20px;
-  margin: 25px;
+  margin: 25px auto;
   /*align-content: center;*/
   padding: 15px;
   border-radius: 10px;
   width: 400px;
   box-shadow: 6px 6px 10px darkslategrey;
   list-style-type: none;
+  font-weight: bold;
 }
 
 .listbutton li:hover {
@@ -46,4 +48,68 @@ body {
   text-decoration: none;
   color: white;
   /*align-content: center*/
+}
+
+.desc {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 25px auto;
+  border-radius: 10px;
+}
+
+.desc h2 {
+  text-align: center;
+  background-color: darkgoldenrod;
+  padding: 7px;
+  width: 30%;
+  margin: 0 auto;
+  text-shadow: 3px 3px 5px grey;
+  border-radius: 5px;
+}
+
+.desc h3 {
+  margin-left: -20px;
+  font-weight: bold;
+}
+
+.desc ul li {
+  margin: 7px;
+}
+
+.desc ol li {
+  margin: 7px;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 25px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: white;
+  align-content: center;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: auto;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: saddlebrown;
+  color: white;
+}
+
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body img {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
